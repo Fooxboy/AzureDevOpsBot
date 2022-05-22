@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AzureDevOpsNotifications": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
