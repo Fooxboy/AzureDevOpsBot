@@ -15,16 +15,18 @@
 
 Необходимо в ``appsettings.json`` или ``appsettings.X.json`` указать необходимнные ключи и данные:
 
-``
+``AzureOrganization`` - Имя организации в azure dev ops
 
-  "AzureOrganization": "", //Имя организации в azure dev ops
-  "AzureToken": "", //Токен пользователя с необходимыми правами доступа
-  "TelegramToken": "", //Токен телеграм бота
-  "TelegramChatIds": [ ], //id чатов куда необходимо сообщать о релизах
-  "IdleTime": 60, //Время между запросами о новых релизах
-  "IdleInProgressTime": 5 //Время между запросами о новых статусах релиза
+``AzureToken`` - Токен пользователя с необходимыми правами доступа
 
-``
+``TelegramToken`` - Токен телеграм бота
+  
+``TelegramChatIds`` - id чатов куда необходимо сообщать о релизах
+  
+``IdleTime`` - Время между запросами о новых релизах
+  
+``IdleInProgressTime`` - Время между запросами о новых статусах релиза
+
 
 ## Получить токен azure dev ops
 ![image](https://user-images.githubusercontent.com/31418624/169698514-166cbb64-41e4-4ace-80a4-e02089af5775.png)
